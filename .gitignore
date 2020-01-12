@@ -1,0 +1,5 @@
+Copied/
+dist/
+copywise.egg-info/
+.idea/
+setup.py
