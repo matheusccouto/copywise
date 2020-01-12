@@ -3,3 +3,4 @@ dist/
 copywise.egg-info/
 .idea/
 setup.py
+setup.cfg
