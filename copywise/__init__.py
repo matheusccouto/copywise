@@ -50,7 +50,7 @@ def copy_ext(src, dst, include=None, exclude=None):
         exclude: Extensions to not copy. Only relevant when include = None.
     """
     # Find files from the specified extensions.
-    files = find_files(src, include)
+    files = find_files(src, include, exclude)
     # Transform all file paths in relative.
     rel = [os.path.relpath(file, src) for file in files]
     # Concatenate the relative path to the destination folder.
